@@ -33,14 +33,17 @@ const operation = prompt("please choose the operation (+,-,/,*):  ");
 if (operation === "+") {
 console.log(firstNumber+secondNumber);
 }
-if (operation === "-") {
+else if (operation === "-") {
     console.log(firstNumber-secondNumber);
-    }
-if (operation === "*") {
+} 
+else if (operation === "*") {
 console.log(firstNumber*secondNumber);
 }
-if (operation === "/") {
+else if (operation === "/") {
     console.log(firstNumber/secondNumber);
+}
+else {
+    console.log ("wrong input")
 }
         
 
